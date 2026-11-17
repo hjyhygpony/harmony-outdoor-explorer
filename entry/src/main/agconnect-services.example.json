@@ -1,0 +1,17 @@
+{
+  "client": {
+    "client_id": "YOUR_HUAWEI_CLIENT_ID",
+    "client_secret": "YOUR_HUAWEI_CLIENT_SECRET",
+    "app_id": "YOUR_HUAWEI_APP_ID",
+    "api_key": "YOUR_HUAWEI_API_KEY",
+    "package_name": "com.example.tongxing"
+  },
+  "app_info": {
+    "app_id": "YOUR_HUAWEI_APP_ID",
+    "package_name": "com.example.tongxing"
+  },
+  "oauth_client": {
+    "client_id": "YOUR_HUAWEI_CLIENT_ID",
+    "client_type": 30
+  }
+}

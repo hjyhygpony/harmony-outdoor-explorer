@@ -1,0 +1,14 @@
+{
+  "name": "outdoor-group-server",
+  "version": "1.0.0",
+  "description": "户外群组实时位置同步服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "uuid": "^9.0.0"
+  }
+}

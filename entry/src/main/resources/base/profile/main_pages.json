@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/MapHome",
+    "pages/Index",
+    "pages/OutdoorHome",
+    "pages/GroupDetail",
+    "pages/GroupPage",
+    "pages/OutdoorMainPage"
+  ]
+}

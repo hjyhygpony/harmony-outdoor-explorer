@@ -1,0 +1,34 @@
+# HarmonyOS / DevEco
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+/.vscode
+/.hvigor
+**/build
+**/.preview
+**/.test
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+
+# Local signing and SDK assets
+certificate/
+system-image/
+licenses/
+goldtarget/
+
+# Node server
+server/node_modules/
+
+# OS / archives
+.DS_Store
+Thumbs.db
+*.zip
+*.7z
+*.rar
+
+# AppGallery Connect local configuration
+entry/src/main/agconnect-services.json
+
