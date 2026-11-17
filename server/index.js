@@ -4,7 +4,11 @@
  */
 
 const WebSocket = require('ws');
-const { v4: uuidv4 } = require('uuid');
+const { randomUUID } = require('crypto');
+
+function uuidv4() {
+  return randomUUID();
+}
 
 const PORT = 8080;
 const wss = new WebSocket.Server({ port: PORT });
@@ -842,3 +846,4 @@ setInterval(() => {
 
 console.log(`[Server] WebSocket server running on port ${PORT}`);
 console.log(`[Server] Connect using: ws://YOUR_IP:${PORT}`);
+
